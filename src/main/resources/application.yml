@@ -8,4 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/soabel/bootcamp-adventureworks-configserver/tree/main/src/main/resources/git-localconfig-repo
+          uri: https://github.com/soabel/bootcamp-adventureworks-localconfigrepo.git
+          default-label: main
+          timeout: 10
